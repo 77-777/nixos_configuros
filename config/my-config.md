@@ -39,7 +39,7 @@ environment.systemPackages = with pkgs; [
     gcc gnupg git gnumake openjdk coreutils-full util-linux alsa-utils
 
   ### Preliminary
-    nano vim htop tree neofetch wget unrar p7zip rsync srm openssh
+    nano vim emacs htop tree neofetch wget unrar p7zip rsync srm openssh
 
   ### Terminal
     tmux irssi rtorrent lynx tty-clock slock weechat scrot
@@ -51,7 +51,7 @@ environment.systemPackages = with pkgs; [
     thunderbird
 
   ### Torrent
-    deluge
+    deluge transmission transmission-qt
 
   ### Communication
     discord hexchat
@@ -69,10 +69,10 @@ environment.systemPackages = with pkgs; [
     libreoffice pdfsam-basic staruml yacreader
 
   ### Accessories
-    anki cherrytree xmind sublime evince
+    anki cherrytree xmind sublime vscode evince
 
   ### Networking
-    akregator anydesk filezilla wireshark
+    akregator anydesk teamviewer filezilla wireshark
 
   ### System
     virtualbox
@@ -93,19 +93,19 @@ environment.systemPackages = with pkgs; [
   #########################################################
 
   ### Primary (development)
-    # ghc ocaml opam nodejs
+    ghc ocaml opam nodejs
 
   ### Secondary (gaming)
-    # wine wine64 winetricks
+    wine wine64 winetricks
 
   ### Alternatives
-    # evolution transmission transmission-qt qemu subversion mercurial
+    # evolution qemu subversion mercurial
 
   ### KDE Flavours
     # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror amarok
 
   ### Misc
-    # fastfetch emacs vscode teamviewer element-web guake yakuake scribus i3 desmume dolphin-emu ppsspp-qt iptables # gparted gnome-system-manager/monitor
+    # fastfetch element-web guake yakuake scribus i3 desmume dolphin-emu ppsspp-qt iptables # gparted gnome-system-manager/monitor
 
   ### Not in Nixos Repository
     # freedownloadmanager citra nixnode2 caesium cheese clonespy # quiterss [some qtwebkit error]
