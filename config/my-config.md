@@ -2,6 +2,8 @@
 
 > On a stock KDE plasma 6, fresh installation of NixOS.
 
+## Common commands
+
 ```bash
 ## The main configuration file location.
 sudo nano /etc/nixos/configuration.nix
@@ -16,6 +18,8 @@ sudo nix-collect-garbage --delete-older-than 15d
 ...
 ```
 
+## Preliminary
+
 ```bash
 ## Enabling awesome
 services.xserver.windowManager.awesome.enable = true;
@@ -26,6 +30,8 @@ fonts.packages = with pkgs; [
   roboto
 ];
 ```
+
+## Packages
 
 ```bash
 
