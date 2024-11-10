@@ -83,6 +83,8 @@ environment.systemPackages = with pkgs; [
 
   ### anything for ntfs mounter?
 
+  ### what about setting scheduler and kernel vm parameters?
+
   #########################################################
   ## KDE Flavours
   #########################################################
