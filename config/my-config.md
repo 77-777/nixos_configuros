@@ -79,15 +79,23 @@ environment.systemPackages = with pkgs; [
   ## Extras
   #########################################################
 
-  ### ghc ocaml
+  ### Primary (development)
+    ### ghc ocaml
+
+  ### Secondary (gaming)
+    ### wine wine64 winetricks
+
+  ### Alternatives
+    konversation evolution transmission transmission-qt ktorrent qemu
+
+  ### KDE Flavours
+    kontact kleopatra korganizer kget kmail
 
   ### anything for ntfs mounter?
+    ???
 
   ### what about setting scheduler and kernel vm parameters?
-
-  #########################################################
-  ## KDE Flavours
-  #########################################################
+    ???
 
 ];
 
