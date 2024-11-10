@@ -23,7 +23,10 @@ environment.systemPackages = with pkgs; [
     gcc gnupg git gnumake openjdk
 
   ### Preliminary
-    nano vim htop tree neofetch wget unrar rsync openssh
+    nano vim htop tree neofetch wget unrar p7zip rsync srm openssh
+
+  ### Terminal
+    tmux rtorrent lynx
 
   ### Browser
     firefox chromium
@@ -68,7 +71,9 @@ environment.systemPackages = with pkgs; [
   ## Extras
   #########################################################
 
-  ## anything for ntfs mounter?
+  ### ghc ocaml
+
+  ### anything for ntfs mounter?
 
   #########################################################
   ## KDE Flavours
