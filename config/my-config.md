@@ -24,13 +24,13 @@ environment.systemPackages = with pkgs; [
   #########################################################
 
   ### Essentials
-    gcc gnupg git gnumake openjdk
+    gcc gnupg git gnumake openjdk coreutils-full util-linux 
 
   ### Preliminary
     nano vim htop tree neofetch wget unrar p7zip rsync srm openssh
 
   ### Terminal
-    tmux irssi rtorrent lynx
+    tmux irssi rtorrent lynx tty-clock slock weechat scrot
 
   ### Browser
     firefox chromium
@@ -86,7 +86,7 @@ environment.systemPackages = with pkgs; [
     # wine wine64 winetricks
 
   ### Alternatives
-    # weechat evolution transmission transmission-qt qemu
+    # evolution transmission transmission-qt qemu subversion mercurial
 
   ### KDE Flavours
     # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive
