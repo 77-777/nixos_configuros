@@ -10,7 +10,7 @@ sudo nano /etc/nixos/configuration.nix
 sudo nixos-rebuild switch
 
 ## Clean up older iterations and packages.
-...
+sudo nix-collect-garbage --delete-older-than 15d
 
 ## Updating the distribution
 ...
