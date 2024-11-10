@@ -105,7 +105,10 @@ environment.systemPackages = with pkgs; [
     # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror amarok
 
   ### Misc
-    # fastfetch emacs vscode teamviewer element-web guake yakuake scribus i3
+    # fastfetch emacs vscode teamviewer element-web guake yakuake scribus i3 desmume dolphin-emu ppsspp-qt iptables # gparted gnome-system-manager/monitor
+
+  ### Not in Nixos Repository
+    # freedownloadmanager citra nixnode2 caesium cheese clonespy # quiterss [some qtwebkit error]
 
   ### anything for ntfs mounter?
     # ???
