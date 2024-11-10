@@ -8,6 +8,12 @@ sudo nano /etc/nixos/configuration.nix
 
 ## Build the system and switch to it.
 sudo nixos-rebuild switch
+
+## Clean up older iterations and packages.
+...
+
+## Updating the distribution
+...
 ```
 
 ```bash
@@ -66,7 +72,7 @@ environment.systemPackages = with pkgs; [
     virtualbox
 
   ### Development
-    codeblocks ruby
+    codeblocks ruby texmaker
 
   ### Gaming
     steam lutris
