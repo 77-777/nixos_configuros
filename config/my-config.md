@@ -30,7 +30,7 @@ environment.systemPackages = with pkgs; [
     nano vim htop tree neofetch wget unrar p7zip rsync srm openssh
 
   ### Terminal
-    tmux rtorrent lynx
+    tmux irssi rtorrent lynx
 
   ### Browser
     firefox chromium
