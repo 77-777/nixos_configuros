@@ -20,7 +20,7 @@ environment.systemPackages = with pkgs; [
   #########################################################
 
   ### Essentials
-    gcc gnupg git gnumake
+    gcc gnupg git gnumake openjdk
 
   ### Preliminary
     nano vim htop tree neofetch wget unrar rsync openssh
@@ -53,10 +53,16 @@ environment.systemPackages = with pkgs; [
     anki cherrytree xmind sublime
 
   ### Networking
-    akregator anydesk
+    akregator anydesk filezilla wireshark
+
+  ### System
+    virtualbox
+
+  ### Development
+    codeblocks ruby
 
   ### Gaming
-    steam
+    steam lutris
 
   #########################################################
   ## Extras
