@@ -22,6 +22,12 @@ services.xserver.windowManager.awesome.enable = true;
 ```
 
 ```bash
+fonts.packages = with pkgs; [
+  roboto
+];
+```
+
+```bash
 
 environment.systemPackages = with pkgs; [
 
@@ -77,7 +83,8 @@ environment.systemPackages = with pkgs; [
   ### Gaming
     steam lutris
 
-  ### Miscellaneous
+  ### Miscellaneous, Fonts, Etc
+    pkgs.roboto
     pkgs.awesome
     xfce.thunar
 
