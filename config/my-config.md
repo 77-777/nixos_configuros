@@ -102,7 +102,10 @@ environment.systemPackages = with pkgs; [
     # evolution transmission transmission-qt qemu subversion mercurial
 
   ### KDE Flavours
-    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive
+    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror
+
+  ### Misc
+    # fastfetch emacs vscode teamviewer element-web
 
   ### anything for ntfs mounter?
     # ???
