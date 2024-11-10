@@ -48,7 +48,7 @@ environment.systemPackages = with pkgs; [
     pass keepass veracrypt
 
   ### Multimedia
-    vlc audacity handbrake
+    vlc audacity handbrake openshot-qt lmms
 
   ### Graphics
     gimp blender inkscape imagemagick
@@ -57,7 +57,7 @@ environment.systemPackages = with pkgs; [
     libreoffice pdfsam-basic staruml yacreader
 
   ### Accessories
-    anki cherrytree xmind sublime
+    anki cherrytree xmind sublime evince
 
   ### Networking
     akregator anydesk filezilla wireshark
@@ -89,7 +89,7 @@ environment.systemPackages = with pkgs; [
     # weechat evolution transmission transmission-qt qemu
 
   ### KDE Flavours
-    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent
+    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive
 
   ### anything for ntfs mounter?
     # ???
