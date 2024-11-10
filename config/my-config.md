@@ -10,6 +10,10 @@ sudo nano /etc/nixos/configuration.nix
 sudo nixos-rebuild switch
 ```
 
+```bash
+## Enabling awesome
+services.xserver.windowManager.awesome.enable = true;
+```
 
 ```bash
 
@@ -66,6 +70,10 @@ environment.systemPackages = with pkgs; [
 
   ### Gaming
     steam lutris
+
+  ### Miscellaneous
+    pkgs.awesome
+    xfce.thunar
 
   #########################################################
   ## Extras
