@@ -36,7 +36,7 @@ environment.systemPackages = with pkgs; [
   #########################################################
 
   ### Essentials
-    gcc gnupg git gnumake openjdk coreutils-full util-linux 
+    gcc gnupg git gnumake openjdk coreutils-full util-linux alsa-utils
 
   ### Preliminary
     nano vim htop tree neofetch wget unrar p7zip rsync srm openssh
@@ -60,7 +60,7 @@ environment.systemPackages = with pkgs; [
     pass keepass veracrypt
 
   ### Multimedia
-    vlc audacity handbrake openshot-qt lmms
+    vlc audacity handbrake lmms openshot-qt
 
   ### Graphics
     gimp blender inkscape imagemagick
@@ -102,10 +102,10 @@ environment.systemPackages = with pkgs; [
     # evolution transmission transmission-qt qemu subversion mercurial
 
   ### KDE Flavours
-    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror
+    # kontact kleopatra korganizer kget kmail kdevelop konversation ktorrent krita ## okular kdenlive konqueror amarok
 
   ### Misc
-    # fastfetch emacs vscode teamviewer element-web
+    # fastfetch emacs vscode teamviewer element-web guake yakuake scribus i3
 
   ### anything for ntfs mounter?
     # ???
