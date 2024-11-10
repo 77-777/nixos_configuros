@@ -26,6 +26,7 @@ services.xserver.windowManager.awesome.enable = true;
 ```
 
 ```bash
+## Enabling fonts.
 fonts.packages = with pkgs; [
   roboto
 ];
@@ -35,6 +36,7 @@ fonts.packages = with pkgs; [
 
 ```bash
 
+## Packages to install.
 environment.systemPackages = with pkgs; [
 
   #########################################################
